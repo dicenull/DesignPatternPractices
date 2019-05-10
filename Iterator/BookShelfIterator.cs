@@ -1,4 +1,4 @@
-﻿namespace No0101
+﻿namespace IteratorPatternBookShelf
 {
 	class BookShelfIterator : Iterator<Book>
 	{

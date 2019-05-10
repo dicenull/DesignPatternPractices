@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace No0101
+namespace IteratorPatternBookShelf
 {
 	class Book
 	{
