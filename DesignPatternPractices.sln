@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{91137852-38AD-47C5-81CC-389BBDCBB0C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileAdapter", "FileAdapter\FileAdapter.csproj", "{7E53338E-CB77-4D5E-ACE3-B9CFF048AA03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAdapter", "FileAdapter\FileAdapter.csproj", "{7E53338E-CB77-4D5E-ACE3-B9CFF048AA03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayTemplate", "DisplayTemplate\DisplayTemplate.csproj", "{8747E480-301A-4E53-8878-3B9F9867962B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7E53338E-CB77-4D5E-ACE3-B9CFF048AA03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E53338E-CB77-4D5E-ACE3-B9CFF048AA03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E53338E-CB77-4D5E-ACE3-B9CFF048AA03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8747E480-301A-4E53-8878-3B9F9867962B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8747E480-301A-4E53-8878-3B9F9867962B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8747E480-301A-4E53-8878-3B9F9867962B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8747E480-301A-4E53-8878-3B9F9867962B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
