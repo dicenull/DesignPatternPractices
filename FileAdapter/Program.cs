@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace FileAdapter
+﻿namespace FileAdapter
 {
 	class Program
 	{
