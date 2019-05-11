@@ -2,10 +2,10 @@
 {
 	abstract class DisplayBase
 	{
-		public abstract void Open();
+		protected abstract void Open();
 
-		public abstract void Print();
-		public abstract void Close();
+		protected abstract void Print();
+		protected abstract void Close();
 
 		public void Display()
 		{

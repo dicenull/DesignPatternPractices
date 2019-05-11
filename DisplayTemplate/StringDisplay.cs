@@ -15,17 +15,17 @@ namespace DisplayTemplate
 			width = Encoding.UTF8.GetBytes(str).Length;
 		}
 
-		public override void Open()
+		protected override void Open()
 		{
 			printLine();
 		}
 
-		public override void Print()
+		protected override void Print()
 		{
 			Console.WriteLine($"|{str}|");
 		}
 
-		public override void Close()
+		protected override void Close()
 		{
 			printLine();
 		}

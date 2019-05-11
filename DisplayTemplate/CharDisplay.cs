@@ -11,17 +11,17 @@ namespace DisplayTemplate
 			this.ch = ch;
 		}
 
-		public override void Open()
+		protected override void Open()
 		{
 			Console.Write("<<");
 		}
 
-		public override void Print()
+		protected override void Print()
 		{
 			Console.Write(ch);
 		}
 
-		public override void Close()
+		protected override void Close()
 		{
 			Console.WriteLine(">>");
 		}
