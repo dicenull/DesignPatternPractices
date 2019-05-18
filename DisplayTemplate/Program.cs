@@ -4,7 +4,7 @@ namespace DisplayTemplate
 {
 	class Program
 	{
-		static void Main(string[] args)
+		static void Main()
 		{
 			DisplayBase d1 = new CharDisplay('Y');
 			DisplayBase d2 = new StringDisplay("Yosano");
