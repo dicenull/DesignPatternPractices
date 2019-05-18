@@ -7,7 +7,7 @@ namespace IdCard
 	{
 		public string Owner { get; }
 		
-		public IDCard(string owner)
+		internal IDCard(string owner)
 		{
 			Console.WriteLine($"{owner}のカードを作ります");
 
