@@ -6,7 +6,7 @@ namespace IdCard
 {
 	class IDCardFactory : Factory
 	{
-		List<string> Owners { get; } = new List<string>();
+		Dictionary<int, string> database = new Dictionary<int, string>();
 
 		protected override IProduct createProduct(string owner)
 		{
@@ -15,7 +15,9 @@ namespace IdCard
 
 		protected override void registerProduct(IProduct product)
 		{
-			Owners.Add((product as IDCard).Owner);
+			var idCard = product as IDCard;
+
+			database[idCard.Id] = idCard.Owner;
 		}
 	}
 }
