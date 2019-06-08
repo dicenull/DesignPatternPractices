@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileAdapter", "FileAdapter\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisplayTemplate", "DisplayTemplate\DisplayTemplate.csproj", "{8747E480-301A-4E53-8878-3B9F9867962B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardFactory", "CardFactory\CardFactory.csproj", "{AF8DBF54-1C72-4621-9332-201392DAA38D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardFactory", "CardFactory\CardFactory.csproj", "{AF8DBF54-1C72-4621-9332-201392DAA38D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketMaker", "TicketMaker\TicketMaker.csproj", "{CAEF846D-2964-47F1-A141-15017FCD0BE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{AF8DBF54-1C72-4621-9332-201392DAA38D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8DBF54-1C72-4621-9332-201392DAA38D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8DBF54-1C72-4621-9332-201392DAA38D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAEF846D-2964-47F1-A141-15017FCD0BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAEF846D-2964-47F1-A141-15017FCD0BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAEF846D-2964-47F1-A141-15017FCD0BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAEF846D-2964-47F1-A141-15017FCD0BE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
