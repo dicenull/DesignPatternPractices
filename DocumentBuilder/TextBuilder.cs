@@ -8,18 +8,18 @@ namespace DocumentBuilder
 	{
 		StringBuilder strBuilder = new StringBuilder();
 
-		public void MakeTitle(string title)
+		protected override void buildTitle(string title)
 		{
 			appendDecoLine();
 			strBuilder.Append($"[{title}]\n\n");
 		}
 
-		public void MakeString(string str)
+		protected override void buildString(string str)
 		{
 			strBuilder.Append($"■{str}\n\n");
 		}
 
-		public void MakeItems(IEnumerable<string> items)
+		protected override void buildItems(IEnumerable<string> items)
 		{
 			foreach(var item in items)
 			{
@@ -28,7 +28,7 @@ namespace DocumentBuilder
 			strBuilder.Append("\n");
 		}
 
-		public void Close()
+		protected override void done()
 		{
 			appendDecoLine();
 		}

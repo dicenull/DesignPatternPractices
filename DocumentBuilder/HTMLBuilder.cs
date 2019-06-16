@@ -11,7 +11,7 @@ namespace DocumentBuilder
 		private StreamWriter writer;
 
 
-		public void MakeTitle(string title)
+		protected override void buildTitle(string title)
 		{
 			filename = $"{title}.html";
 
@@ -19,11 +19,11 @@ namespace DocumentBuilder
 			writer.WriteLine($"<html><head><title>{title}</title></head></body>");
 			writer.WriteLine($"<h1>{title}</h1>");
 		}
-		public void MakeString(string str)
+		protected override void buildString(string str)
 		{
 			writer.WriteLine($"<p>{str}</p>");
 		}
-		public void MakeItems(IEnumerable<string> items)
+		protected override void buildItems(IEnumerable<string> items)
 		{
 			writer.WriteLine("<ul>");
 			foreach(var item in items)
@@ -33,7 +33,7 @@ namespace DocumentBuilder
 			writer.WriteLine("</ul>");
 		}
 
-		public void Close()
+		protected override void done()
 		{
 			writer.WriteLine("</body></html>");
 			writer.Close();
