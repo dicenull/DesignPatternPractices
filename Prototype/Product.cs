@@ -4,10 +4,17 @@ using System.Text;
 
 namespace Prototype
 {
-	interface Product : ICloneable
+	public abstract class Product : ICloneable
 	{
-		void Use(string s);
+		public abstract void Use(string s);
+		public Product CreateClone()
+		{
+			return (Product)Clone();
+		}
 
-		Product CreateClone();
+		public object Clone()
+		{
+			return this;
+		}
 	}
 }

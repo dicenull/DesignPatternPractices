@@ -13,14 +13,14 @@ namespace Prototype
 			this.deco = decoChar;
 		}
 
-		public void Use(string s)
+		public override void Use(string s)
 		{
 			for(var i = 0;i < s.Length + 4;i++)
 			{
 				Console.Write(deco);
 			}
-
 			Console.WriteLine();
+
 			Console.WriteLine($"{deco} {s} {deco}");
 
 			for (var i = 0; i < s.Length + 4; i++)
@@ -28,16 +28,6 @@ namespace Prototype
 				Console.Write(deco);
 			}
 			Console.WriteLine();
-		}
-
-		public Product CreateClone()
-		{
-			return (Product)Clone();
-		}
-
-		public object Clone()
-		{
-			return this;
 		}
 	}
 }

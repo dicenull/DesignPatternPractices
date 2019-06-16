@@ -13,17 +13,7 @@ namespace Prototype
 			this.ulchar = ulchar;
 		}
 
-		public object Clone()
-		{
-			return this;
-		}
-
-		public Product CreateClone()
-		{
-			return (Product)Clone();
-		}
-
-		public void Use(string s)
+		public override void Use(string s)
 		{
 			Console.WriteLine($"\"{s}\"");
 
