@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripleInstance", "TripleIns
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{AB24F776-1134-4B24-838D-8F6175790640}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentBuilder", "DocumentBuilder\DocumentBuilder.csproj", "{52BEAC82-6156-435F-A170-A99EF88DB961}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{AB24F776-1134-4B24-838D-8F6175790640}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB24F776-1134-4B24-838D-8F6175790640}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB24F776-1134-4B24-838D-8F6175790640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BEAC82-6156-435F-A170-A99EF88DB961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BEAC82-6156-435F-A170-A99EF88DB961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BEAC82-6156-435F-A170-A99EF88DB961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BEAC82-6156-435F-A170-A99EF88DB961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
