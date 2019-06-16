@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisplayTemplate", "DisplayT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardFactory", "CardFactory\CardFactory.csproj", "{AF8DBF54-1C72-4621-9332-201392DAA38D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketMaker", "TicketMaker\TicketMaker.csproj", "{CAEF846D-2964-47F1-A141-15017FCD0BE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketMaker", "TicketMaker\TicketMaker.csproj", "{CAEF846D-2964-47F1-A141-15017FCD0BE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleInstance", "TripleInstance\TripleInstance.csproj", "{79A77D6E-B99B-4AC1-AAF6-A7FBA8CEA458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripleInstance", "TripleInstance\TripleInstance.csproj", "{79A77D6E-B99B-4AC1-AAF6-A7FBA8CEA458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{AB24F776-1134-4B24-838D-8F6175790640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{79A77D6E-B99B-4AC1-AAF6-A7FBA8CEA458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79A77D6E-B99B-4AC1-AAF6-A7FBA8CEA458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79A77D6E-B99B-4AC1-AAF6-A7FBA8CEA458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB24F776-1134-4B24-838D-8F6175790640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB24F776-1134-4B24-838D-8F6175790640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB24F776-1134-4B24-838D-8F6175790640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB24F776-1134-4B24-838D-8F6175790640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
