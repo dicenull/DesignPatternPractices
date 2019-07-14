@@ -10,7 +10,7 @@ namespace LinkPageCreater
 			Console.Write("Factory name>");
 			var name = Console.ReadLine();
 
-			var factory = Factory.GetFactory(Type.GetType("LinkPageCreater.ListFactory." + name));
+			var factory = Factory.GetFactory(Type.GetType("LinkPageCreater." + name));
 
 			Link asahi = factory.CreateLink("朝日", "http://www.asahi.com/");
 			Link yomiuri = factory.CreateLink("読売", "http://yomiuri.co.jp/");
