@@ -16,5 +16,13 @@ namespace LinkPageCreater.AbsFactory
 		public abstract Link CreateLink(string caption, string url);
 		public abstract Tray CreateTray(string caption);
 		public abstract Page CreatePage(string title, string author);
+
+		public Page CreateYahooPage()
+		{
+			var page = CreatePage("Yahoo!", "Yahoo!");
+			page.Add(CreateLink("Yahoo!", "http://www.yahoo.com/"));
+
+			return page;
+		}
 	}
 }
