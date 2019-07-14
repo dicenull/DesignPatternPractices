@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketMaker", "TicketMaker\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripleInstance", "TripleInstance\TripleInstance.csproj", "{79A77D6E-B99B-4AC1-AAF6-A7FBA8CEA458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{AB24F776-1134-4B24-838D-8F6175790640}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{AB24F776-1134-4B24-838D-8F6175790640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentBuilder", "DocumentBuilder\DocumentBuilder.csproj", "{52BEAC82-6156-435F-A170-A99EF88DB961}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentBuilder", "DocumentBuilder\DocumentBuilder.csproj", "{52BEAC82-6156-435F-A170-A99EF88DB961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkPageCreater", "LinkPageCreater\LinkPageCreater.csproj", "{C7A6344D-1E44-483F-BE0B-B17730A6B9B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{52BEAC82-6156-435F-A170-A99EF88DB961}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52BEAC82-6156-435F-A170-A99EF88DB961}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52BEAC82-6156-435F-A170-A99EF88DB961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A6344D-1E44-483F-BE0B-B17730A6B9B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A6344D-1E44-483F-BE0B-B17730A6B9B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A6344D-1E44-483F-BE0B-B17730A6B9B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A6344D-1E44-483F-BE0B-B17730A6B9B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
