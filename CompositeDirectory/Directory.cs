@@ -5,15 +5,12 @@ namespace CompositeDirectory
 {
 	public class Directory : Entry
 	{
-		private string name;
 		private List<Entry> directory = new List<Entry>();
 
 		public Directory(string name)
 		{
-			this.name = name;
+			Name = name;
 		}
-
-		public override string Name => name;
 
 		public override int Size
 		{
@@ -34,17 +31,14 @@ namespace CompositeDirectory
 		{
 			directory.Add(entry);
 
+			entry.parent = this;
+
 			return this;
 		}
 
-		public override void PrintList(string prefix)
+		protected internal override void printList(string prefix)
 		{
-			Console.WriteLine($"{prefix}/{this}");
-
-			foreach(var entry in directory)
-			{
-				entry.PrintList($"{prefix}/{Name}");
-			}
+			directory.ForEach(entry => entry.printList($"{prefix}/{Name}"));
 		}
 	}
 }

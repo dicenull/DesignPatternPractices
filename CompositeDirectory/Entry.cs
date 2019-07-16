@@ -7,25 +7,44 @@ namespace CompositeDirectory
 {
 	public abstract class Entry
 	{
-		public abstract string Name { get; }
+		public virtual string Name { get; protected set; }
 
-		public abstract int Size { get; }
+		public virtual int Size { get; protected set; }
 
 		public virtual Entry Add(Entry entry)
 		{
 			throw new FileTreatmentException();
 		}
 
-		public void PrintList()
+		public virtual void PrintList()
 		{
-			PrintList("");
+			printList("");
 		}
 
-		public abstract void PrintList(string prefix);
+		protected internal abstract void printList(string prefix);
 
 		public override string ToString()
 		{
 			return $"{Name} ({Size})";
+		}
+
+		protected internal Entry parent = null;
+
+		public string FullName
+		{
+			get
+			{
+				string name = "";
+
+				var entry = this;
+				while(entry != null)
+				{
+					name = name.Insert(0, "/" + entry.Name);
+					entry = entry.parent;
+				}
+
+				return name;
+			}
 		}
 	}
 }

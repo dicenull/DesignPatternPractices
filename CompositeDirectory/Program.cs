@@ -38,7 +38,13 @@ namespace CompositeDirectory
 			tomura.Add(new File("game.doc", 400));
 			tomura.Add(new File("junk.mail", 500));
 
+			var file = new File("path.png", 1000);
+			hanako.Add(file);
+
 			rootDir.PrintList();
+
+
+			Console.WriteLine(file.FullName);
 		}
 	}
 }
