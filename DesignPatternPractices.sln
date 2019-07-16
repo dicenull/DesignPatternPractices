@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentBuilder", "Document
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkPageCreater", "LinkPageCreater\LinkPageCreater.csproj", "{C7A6344D-1E44-483F-BE0B-B17730A6B9B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Displayer", "Displayer\Displayer.csproj", "{15CE4F76-B6D0-439B-8088-F1B34C2A6977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Displayer", "Displayer\Displayer.csproj", "{15CE4F76-B6D0-439B-8088-F1B34C2A6977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JankenStrategy", "JankenStrategy\JankenStrategy.csproj", "{50E5549A-50F2-42CC-BE44-893FE3BD9AE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JankenStrategy", "JankenStrategy\JankenStrategy.csproj", "{50E5549A-50F2-42CC-BE44-893FE3BD9AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeDirectory", "CompositeDirectory\CompositeDirectory.csproj", "{3A7120E9-3E61-48D3-B5BE-F1CE4F3C2716}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{50E5549A-50F2-42CC-BE44-893FE3BD9AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50E5549A-50F2-42CC-BE44-893FE3BD9AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50E5549A-50F2-42CC-BE44-893FE3BD9AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7120E9-3E61-48D3-B5BE-F1CE4F3C2716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7120E9-3E61-48D3-B5BE-F1CE4F3C2716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7120E9-3E61-48D3-B5BE-F1CE4F3C2716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7120E9-3E61-48D3-B5BE-F1CE4F3C2716}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
