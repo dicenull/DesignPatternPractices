@@ -21,30 +21,15 @@ namespace StringDecorator
 
 		public override string GetRowText(int row)
 		{
-			if(row == 0)
+			// 一番上か一番下
+			if(row == 0 || row == display.Rows + 1)
 			{
-				return "+" + makeLine('-', display.Columns) + "+";
-			}
-			else if(row == display.Rows + 1)
-			{
-				return "+" + makeLine('-', display.Columns) + "+";
+				return "+" + new string('-', display.Columns) + "+";
 			}
 			else
 			{
 				return "|" + display.GetRowText(row - 1) + "|";
 			}
-		}
-
-		private string makeLine(char ch, int count)
-		{
-			var builder = new StringBuilder();
-
-			for (var i = 0; i < count; i++)
-			{
-				builder.Append(ch);
-			}
-
-			return builder.ToString();
 		}
 	}
 }

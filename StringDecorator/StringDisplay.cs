@@ -11,9 +11,6 @@ namespace StringDecorator
 		public StringDisplay(string str)
 		{
 			this.str = str;
-
-			// Shift_JISを登録
-			Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 		}
 
 		public override int Columns
