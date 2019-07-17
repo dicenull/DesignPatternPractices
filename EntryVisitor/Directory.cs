@@ -13,7 +13,10 @@ namespace EntryVisitor
 		{
 			get
 			{
-				return dir.Sum(entry => entry.Size);
+				var sizeVisitor = new SizeVisitor();
+				Accept(sizeVisitor);
+
+				return sizeVisitor.SumSize;
 			}
 		}
 

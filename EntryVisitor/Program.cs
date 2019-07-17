@@ -34,11 +34,20 @@ namespace EntryVisitor
 
 			yuki.Add(new File("diary.html", 100));
 			yuki.Add(new File("Composite.java", 200));
+			hanako.Add(new File("index.html", 350));
 			hanako.Add(new File("memo.tex", 300));
 			tomura.Add(new File("game.doc", 400));
 			tomura.Add(new File("junk.mail", 500));
 
 			rootDir.Accept(new ListVisitor());
+
+			var ffv = new FileFindVisitor(".html");
+			rootDir.Accept(ffv);
+
+			foreach(var file in ffv.FoundFiles)
+			{
+				Console.WriteLine(file.ToString());
+			}
 		}
 	}
 }
