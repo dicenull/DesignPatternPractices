@@ -24,7 +24,7 @@ namespace StringDecorator
 			get => display.Rows;
 		}
 
-		public string RowText(int row)
+		public override string GetRowText(int row)
 		{
 			return borderChar + display.GetRowText(row) + borderChar;
 		}

@@ -11,11 +11,15 @@ namespace StringDecorator
 		public StringDisplay(string str)
 		{
 			this.str = str;
+
+			// Shift_JISを登録
+			Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 		}
 
 		public override int Columns
 		{
-			get => str.Length;
+			// 2byte文字でも幅が合うようにバイト数を取得する
+			get => Encoding.GetEncoding("shift-jis").GetByteCount(str);
 		}
 
 		public override int Rows
