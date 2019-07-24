@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntryVisitor", "EntryVisito
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TroubleChain", "TroubleChain\TroubleChain.csproj", "{1DB1047A-5B65-41DA-AB60-593EE68DD8FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageFacade", "PageFacade\PageFacade.csproj", "{F5F50B63-8D96-43B1-8E0D-21A75107DC74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PageFacade", "PageFacade\PageFacade.csproj", "{F5F50B63-8D96-43B1-8E0D-21A75107DC74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginDialogMediator", "LofinDialogMediator\LoginDialogMediator.csproj", "{AD790C5A-ED47-4B36-8570-3BC69591C945}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{F5F50B63-8D96-43B1-8E0D-21A75107DC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5F50B63-8D96-43B1-8E0D-21A75107DC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5F50B63-8D96-43B1-8E0D-21A75107DC74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD790C5A-ED47-4B36-8570-3BC69591C945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD790C5A-ED47-4B36-8570-3BC69591C945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD790C5A-ED47-4B36-8570-3BC69591C945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD790C5A-ED47-4B36-8570-3BC69591C945}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
