@@ -6,7 +6,7 @@ namespace NumGeneratorObserver
 	{
 		static void Main(string[] args)
 		{
-			NumberGenerator generator = new RandomNumberGenerator();
+			NumberGenerator generator = new IncrementalNumberGenerator(1, 100, 3);
 			IObserver obs1 = new DigitObserver();
 			IObserver obs2 = new GraphObserver();
 
