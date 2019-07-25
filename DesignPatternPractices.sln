@@ -39,7 +39,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginDialogMediator", "Lofi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumGeneratorObserver", "NumGeneratorObserver\NumGeneratorObserver.csproj", "{B95CE550-F0FF-417A-90A7-4DF4681D17D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameMemento", "Memento\GameMemento.csproj", "{C741A431-11C4-43DE-871E-4A5528F0FFF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameMemento", "Memento\GameMemento.csproj", "{C741A431-11C4-43DE-871E-4A5528F0FFF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityState", "SecurityState\SecurityState.csproj", "{BD76CBB7-E77F-49A2-BC4E-7A5631B74410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockState", "ClockState\ClockState.csproj", "{FB23942C-9312-4CC1-BB33-07393CAAC4FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{C741A431-11C4-43DE-871E-4A5528F0FFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C741A431-11C4-43DE-871E-4A5528F0FFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C741A431-11C4-43DE-871E-4A5528F0FFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD76CBB7-E77F-49A2-BC4E-7A5631B74410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD76CBB7-E77F-49A2-BC4E-7A5631B74410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD76CBB7-E77F-49A2-BC4E-7A5631B74410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD76CBB7-E77F-49A2-BC4E-7A5631B74410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB23942C-9312-4CC1-BB33-07393CAAC4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB23942C-9312-4CC1-BB33-07393CAAC4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB23942C-9312-4CC1-BB33-07393CAAC4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB23942C-9312-4CC1-BB33-07393CAAC4FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
