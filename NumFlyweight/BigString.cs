@@ -32,9 +32,12 @@ namespace NumFlyweight
 
 		public void Print()
 		{
-			for(var i = 0;i < bigChars.Length;i++)
+			lock (bigChars)
 			{
-				bigChars[i].Print();
+				for (var i = 0; i < bigChars.Length; i++)
+				{
+					bigChars[i].Print();
+				}
 			}
 		}
 	}
