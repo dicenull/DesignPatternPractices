@@ -51,6 +51,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyNamedPrinter", "ProxyN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPainter", "CommandPainter\CommandPainter.csproj", "{EE7A0F07-77F9-43F6-BBB1-56BE93B45E59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarInterpreter", "CarInterpreter\CarInterpreter.csproj", "{21456D3C-6A0F-48C1-B6D5-100CB768699D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{EE7A0F07-77F9-43F6-BBB1-56BE93B45E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE7A0F07-77F9-43F6-BBB1-56BE93B45E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE7A0F07-77F9-43F6-BBB1-56BE93B45E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21456D3C-6A0F-48C1-B6D5-100CB768699D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21456D3C-6A0F-48C1-B6D5-100CB768699D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21456D3C-6A0F-48C1-B6D5-100CB768699D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21456D3C-6A0F-48C1-B6D5-100CB768699D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
