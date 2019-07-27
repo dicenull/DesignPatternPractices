@@ -41,9 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumGeneratorObserver", "Num
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameMemento", "Memento\GameMemento.csproj", "{C741A431-11C4-43DE-871E-4A5528F0FFF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityState", "SecurityState\SecurityState.csproj", "{BD76CBB7-E77F-49A2-BC4E-7A5631B74410}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityState", "SecurityState\SecurityState.csproj", "{BD76CBB7-E77F-49A2-BC4E-7A5631B74410}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockState", "ClockState\ClockState.csproj", "{FB23942C-9312-4CC1-BB33-07393CAAC4FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumFlyweight", "NumFlyweight\NumFlyweight.csproj", "{DACBEC76-CE9E-4076-A16B-7950D32676EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{FB23942C-9312-4CC1-BB33-07393CAAC4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB23942C-9312-4CC1-BB33-07393CAAC4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB23942C-9312-4CC1-BB33-07393CAAC4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DACBEC76-CE9E-4076-A16B-7950D32676EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DACBEC76-CE9E-4076-A16B-7950D32676EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DACBEC76-CE9E-4076-A16B-7950D32676EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DACBEC76-CE9E-4076-A16B-7950D32676EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
