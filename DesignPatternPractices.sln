@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityState", "SecuritySt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockState", "ClockState\ClockState.csproj", "{FB23942C-9312-4CC1-BB33-07393CAAC4FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumFlyweight", "NumFlyweight\NumFlyweight.csproj", "{DACBEC76-CE9E-4076-A16B-7950D32676EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumFlyweight", "NumFlyweight\NumFlyweight.csproj", "{DACBEC76-CE9E-4076-A16B-7950D32676EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyNamedPrinter", "ProxyNamedPrinter\ProxyNamedPrinter.csproj", "{7B441A48-C76A-479D-A5D9-9C6F91B5A04C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{DACBEC76-CE9E-4076-A16B-7950D32676EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DACBEC76-CE9E-4076-A16B-7950D32676EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DACBEC76-CE9E-4076-A16B-7950D32676EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B441A48-C76A-479D-A5D9-9C6F91B5A04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B441A48-C76A-479D-A5D9-9C6F91B5A04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B441A48-C76A-479D-A5D9-9C6F91B5A04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B441A48-C76A-479D-A5D9-9C6F91B5A04C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
